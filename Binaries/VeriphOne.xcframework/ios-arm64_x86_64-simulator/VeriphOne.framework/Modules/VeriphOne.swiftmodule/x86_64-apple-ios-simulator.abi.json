@@ -1,0 +1,2332 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VeriphOneView",
+        "printedName": "VeriphOneView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sessionUuid:apiKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VeriphOneView",
+                "printedName": "VeriphOne.VeriphOneView",
+                "usr": "s:9VeriphOne0aB4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VeriphOne0aB4ViewV11sessionUuid6apiKey10completionACSS_SSySSSgctcfc",
+            "mangledName": "$s9VeriphOne0aB4ViewV11sessionUuid6apiKey10completionACSS_SSySSSgctcfc",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>>, SwiftUI._AppearanceActionModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZStack",
+                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TupleView",
+                        "printedName": "SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "VStack",
+                                "printedName": "SwiftUI.VStack<SwiftUI.AnyView>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "AnyView",
+                                    "printedName": "SwiftUI.AnyView",
+                                    "usr": "s:7SwiftUI7AnyViewV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI6VStackV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Snackbar",
+                                "printedName": "VeriphOne.Snackbar",
+                                "usr": "s:9VeriphOne8SnackbarV"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:7SwiftUI9TupleViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI6ZStackV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AppearanceActionModifier",
+                    "printedName": "SwiftUI._AppearanceActionModifier",
+                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne0aB4ViewV4bodyQrvp",
+            "mangledName": "$s9VeriphOne0aB4ViewV4bodyQrvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>>, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZStack",
+                        "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TupleView",
+                            "printedName": "SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Tuple",
+                                "printedName": "(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "VStack",
+                                    "printedName": "SwiftUI.VStack<SwiftUI.AnyView>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "AnyView",
+                                        "printedName": "SwiftUI.AnyView",
+                                        "usr": "s:7SwiftUI7AnyViewV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI6VStackV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Snackbar",
+                                    "printedName": "VeriphOne.Snackbar",
+                                    "usr": "s:9VeriphOne8SnackbarV"
+                                  }
+                                ]
+                              }
+                            ],
+                            "usr": "s:7SwiftUI9TupleViewV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI6ZStackV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne0aB4ViewV4bodyQrvg",
+                "mangledName": "$s9VeriphOne0aB4ViewV4bodyQrvg",
+                "moduleName": "VeriphOne",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9VeriphOne0aB4ViewV",
+        "mangledName": "$s9VeriphOne0aB4ViewV",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>>, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZStack",
+                        "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TupleView",
+                            "printedName": "SwiftUI.TupleView<(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Tuple",
+                                "printedName": "(SwiftUI.VStack<SwiftUI.AnyView>, VeriphOne.Snackbar)",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "VStack",
+                                    "printedName": "SwiftUI.VStack<SwiftUI.AnyView>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "AnyView",
+                                        "printedName": "SwiftUI.AnyView",
+                                        "usr": "s:7SwiftUI7AnyViewV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI6VStackV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Snackbar",
+                                    "printedName": "VeriphOne.Snackbar",
+                                    "usr": "s:9VeriphOne8SnackbarV"
+                                  }
+                                ]
+                              }
+                            ],
+                            "usr": "s:7SwiftUI9TupleViewV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI6ZStackV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/LocalizationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/LocalizationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 18,
+      "value": "\"error_view_title\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 27,
+      "value": "\"network_error_description\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 24,
+      "value": "\"error_view_description\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 20,
+      "value": "\"close_button_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
+      "kind": "FloatLiteral",
+      "offset": 208,
+      "length": 4,
+      "value": "0.98"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
+      "kind": "FloatLiteral",
+      "offset": 221,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
+      "kind": "FloatLiteral",
+      "offset": 233,
+      "length": 4,
+      "value": "0.91"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
+      "kind": "FloatLiteral",
+      "offset": 246,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
+      "kind": "FloatLiteral",
+      "offset": 405,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
+      "kind": "FloatLiteral",
+      "offset": 418,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
+      "kind": "FloatLiteral",
+      "offset": 430,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
+      "kind": "FloatLiteral",
+      "offset": 443,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 229,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 766,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 109,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 1,
+      "value": "\" (+\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 983,
+      "length": 1,
+      "value": "\") \""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 1099,
+      "length": 25,
+      "value": "\"chevron.up.chevron.down\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 1227,
+      "length": 29,
+      "value": "\"country_code_selector_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 1334,
+      "length": 25,
+      "value": "\"chevron.up.chevron.down\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1551,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1660,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 1760,
+      "length": 30,
+      "value": "\"search_textfield_placeholder\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1930,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 2094,
+      "length": 57,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 2121,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 2150,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 2215,
+      "length": 27,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 2241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2445,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 65,
+      "length": 7,
+      "value": "\"1.0.8\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 92,
+      "length": 55,
+      "value": "\"https:\/\/service.veriph.one\/sdk-api\/phone-verification\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 8,
+      "value": "\"v1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 46,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "\"\/country-codes\/\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 47,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "\"\/create-attempt\/\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 52,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 1,
+      "value": "\"\/verification-status\/\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 47,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 1,
+      "value": "\"\/submit-attempt\/\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/NetworkReachabilityManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 243,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/NetworkReachabilityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 28,
+      "value": "\"NetworkReachabilityManager\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 137,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 190,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 17,
+      "value": "\"inverse_otp_sms\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 22,
+      "value": "\"inverse_otp_whatsapp\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 9,
+      "value": "\"otp_sms\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 14,
+      "value": "\"otp_whatsapp\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 10,
+      "value": "\"robocall\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 137,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 190,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 137,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 190,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/PhoneNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 130,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 178,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 223,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 554,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 752,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 794,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 960,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1010,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 1054,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/StatusIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 831,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 871,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "StringLiteral",
+      "offset": 1243,
+      "length": 24,
+      "value": "\"expiration_timer_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1578,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1622,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1732,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1740,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1787,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1794,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1801,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 246,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 30,
+      "value": "\"troubleshooting_button_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 478,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 30,
+      "value": "\"troubleshooting_dialog_title\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 410,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 500,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 11,
+      "value": "\"otp_title\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 862,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1042,
+      "length": 27,
+      "value": "\"otp_textfield_placeholder\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1203,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1401,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1523,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1576,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1618,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1882,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2027,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2080,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2202,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2251,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
+      "length": 17,
+      "value": "\"otp_error_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 2659,
+      "length": 18,
+      "value": "\"otp_button_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2878,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 3083,
+      "length": 26,
+      "value": "\"edit_number_dialog_title\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 3236,
+      "length": 26,
+      "value": "\"edit_number_button_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 3539,
+      "length": 17,
+      "value": "\"otp_description\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 487,
+      "length": 6,
+      "value": "127397"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 4,
+      "value": "\"es\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1169,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1827,
+      "length": 8,
+      "value": "\"\\p{M}\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1843,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/PollingManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 373,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "Array",
+      "offset": 288,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "IntegerLiteral",
+      "offset": 518,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 18,
+      "value": "\"phone_form_title\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 24,
+      "value": "\"phone_form_description\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 36,
+      "value": "\"phone_number_textfield_placeholder\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1040,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "StringLiteral",
+      "offset": 1476,
+      "length": 31,
+      "value": "\"keyboard.chevron.compact.down\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "StringLiteral",
+      "offset": 1637,
+      "length": 25,
+      "value": "\"phone_form_button_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1924,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 498,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 698,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1256,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1281,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "StringLiteral",
+      "offset": 2121,
+      "length": 40,
+      "value": "\"verification_alternative_success_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2198,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "StringLiteral",
+      "offset": 2736,
+      "length": 40,
+      "value": "\"verification_alternative_success_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2813,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2863,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "StringLiteral",
+      "offset": 3012,
+      "length": 38,
+      "value": "\"verification_alternative_error_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3083,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3181,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3383,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4894,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 19,
+      "value": "\"inverse_otp_title\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 26,
+      "value": "\"inverse_otp_button_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1083,
+      "length": 25,
+      "value": "\"inverse_otp_description\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 21,
+      "value": "\"inverse_otp_message\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1624,
+      "length": 36,
+      "value": "\"sms:\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1643,
+      "length": 1,
+      "value": "\"&body=\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1659,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "Dictionary",
+      "offset": 1723,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 1903,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 2065,
+      "length": 62,
+      "value": "\"whatsapp:\/\/send?phone=\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 2102,
+      "length": 1,
+      "value": "\"&text=\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 2126,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "Dictionary",
+      "offset": 2195,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 96,
+      "value": "\"I_%%_\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 1,
+      "value": "\"_%%_\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "\"_%%_\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "\"_%%_\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 1,
+      "value": "\"_%%_\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 587,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 37,
+      "value": "\"Version \""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 1,
+      "value": "\" (Build \""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 17,
+      "value": "\"Unknown Version\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 49,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 1014,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 1176,
+      "length": 27,
+      "value": "\"unknown.bundle.identifier\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1458,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 13,
+      "value": "\"attemptUuid\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 939,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1069,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1437,
+      "length": 5,
+      "value": "20012"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1891,
+      "length": 13,
+      "value": "\"attemptUuid\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1927,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1949,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2213,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2269,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2343,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2711,
+      "length": 5,
+      "value": "20012"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 227,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 3,
+      "value": "110"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 3,
+      "value": "111"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 489,
+      "length": 3,
+      "value": "900"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 27,
+      "value": "\"inverse_not_working_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "StringLiteral",
+      "offset": 747,
+      "length": 36,
+      "value": "\"inverse_not_working_whatsapp_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "StringLiteral",
+      "offset": 845,
+      "length": 34,
+      "value": "\"inverse_cant_send_messages_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "StringLiteral",
+      "offset": 953,
+      "length": 46,
+      "value": "\"inverse_cant_send_messages_no_whatsapp_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "StringLiteral",
+      "offset": 1060,
+      "length": 33,
+      "value": "\"traditional_not_delivered_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 42,
+      "value": "\"traditional_not_delivered_whatsapp_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 18,
+      "value": "\"no_service_label\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 227,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 3,
+      "value": "110"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 3,
+      "value": "111"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 489,
+      "length": 3,
+      "value": "900"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 227,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 3,
+      "value": "110"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 3,
+      "value": "111"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "kind": "IntegerLiteral",
+      "offset": 489,
+      "length": 3,
+      "value": "900"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1081,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 13,
+      "value": "\"sessionUuid\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 17,
+      "value": "\"userPhoneNumber\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
+      "length": 17,
+      "value": "\"countryCodeUuid\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1317,
+      "length": 17,
+      "value": "\"cellphoneNumber\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1439,
+      "length": 24,
+      "value": "\"userCancellationReason\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1760,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1794,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "StringLiteral",
+      "offset": 1834,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2193,
+      "length": 5,
+      "value": "20012"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2299,
+      "length": 5,
+      "value": "14224"
+    },
+    {
+      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2411,
+      "length": 5,
+      "value": "20014"
+    }
+  ]
+}

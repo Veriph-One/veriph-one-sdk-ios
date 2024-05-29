@@ -1,0 +1,11 @@
+framework module VeriphOne {
+  umbrella header "VeriphOne.h"
+  export *
+
+  module * { export * }
+}
+
+module VeriphOne.Swift {
+  header "VeriphOne-Swift.h"
+  requires objc
+}
