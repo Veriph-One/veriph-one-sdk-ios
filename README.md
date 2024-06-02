@@ -1,4 +1,4 @@
-# VeriphOne SDK iOS
+# VeriphOne SDK for iOS
 
 Veriph.One offers a swift solution for adding phone verification to any mobile application. 
 
