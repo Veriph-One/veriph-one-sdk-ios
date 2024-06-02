@@ -18,5 +18,5 @@ Veriph.One distributes its iOS SDK through Swift Package Manager. To install the
 
 ## Versions
 
-Latest release: 1.0.8
-Minimum supported version: 1.0.8
+* Latest release: 1.0.8
+* Minimum supported version: 1.0.8
