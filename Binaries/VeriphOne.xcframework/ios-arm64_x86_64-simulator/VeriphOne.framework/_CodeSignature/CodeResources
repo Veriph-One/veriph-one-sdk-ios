@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wRcKBrMkG78kLgJUxWF3mlO9qvo=
+		MF2oaA/Xlx8QheJob1Vf9FCfMXg=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hSMVds0342h7Z5KGwws4ARxsqq0=
+		YOGOfMXgIAomyD0M0JDEVoc1Gjc=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wRcKBrMkG78kLgJUxWF3mlO9qvo=
+		MF2oaA/Xlx8QheJob1Vf9FCfMXg=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Hk73+jPmu3JBItlZO2QErg+uzEo=
+		YaKYSUKUQj9Mf8oGop0pAbpuUW4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,7 +73,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R9a56jJFt/U2IVU/mS/bJqKTY2w=
+			1ax1aUJ97Uw7vD7SR5ETRrZsk3A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WJADlo2laxSyRJyrHiTK2t91sFkPaCiV9KzWnOa499U=
+			0QFi8UcGKdEWY6jmGIqtOUIRZO/USU71cVc64qxoyZo=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -127,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LrodKXNvtpec79rHMT6cqQdUa/16VxGuKNqcGUgIImM=
+			SIVpklxVIHWEY5f9T2lXehKqDY5vFNkIBJeTsHoXkRg=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WJADlo2laxSyRJyrHiTK2t91sFkPaCiV9KzWnOa499U=
+			0QFi8UcGKdEWY6jmGIqtOUIRZO/USU71cVc64qxoyZo=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FFJGDbOkX1JFzwm3DFlG+qAvqODgRyQAG0lKCtOFsaQ=
+			IwU2aN+nIJWeqeGhRkW8NasBf3wQZBff+mEE1GxvGow=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eqRmE/JAeS9B7IKGALdpPzjNQz+TLHkEtpcglGUczi0=
+			fLCwL7a48HOq98hARvYLykWKbmNtqVq2nIZRzBKGzNs=
 			</data>
 			<key>optional</key>
 			<true/>
