@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "VeriphOne",
+    "printedName": "VeriphOne",
     "children": [
       {
         "kind": "Import",
@@ -186,6 +186,39 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Function",
+        "name": "registerTypeface",
+        "printedName": "registerTypeface(fontUrl:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CFURL",
+            "printedName": "CoreFoundation.CFURL",
+            "usr": "c:@T@CFURLRef"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9VeriphOne16registerTypeface7fontUrlySo8CFURLRefa_tF",
+        "mangledName": "$s9VeriphOne16registerTypeface7fontUrlySo8CFURLRefa_tF",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "VeriphOne",
         "declAttributes": [
           "RawDocComment"
@@ -233,7 +266,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sessionUuid:apiKey:completion:)",
+            "printedName": "init(sessionUuid:apiKey:uiConfig:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -252,6 +285,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.UIConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIConfig",
+                    "printedName": "VeriphOne.UIConfig",
+                    "usr": "s:9VeriphOne8UIConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -281,10 +329,12 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9VeriphOne0aB4ViewV11sessionUuid6apiKey10completionACSS_SSySSSgctcfc",
-            "mangledName": "$s9VeriphOne0aB4ViewV11sessionUuid6apiKey10completionACSS_SSySSSgctcfc",
+            "usr": "s:9VeriphOne0aB4ViewV11sessionUuid6apiKey8uiConfig10completionACSS_SSAA8UIConfigVSgySSSgctcfc",
+            "mangledName": "$s9VeriphOne0aB4ViewV11sessionUuid6apiKey8uiConfig10completionACSS_SSAA8UIConfigVSgySSSgctcfc",
             "moduleName": "VeriphOne",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -296,104 +346,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>>, SwiftUI._AppearanceActionModifier>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ZStack",
-                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TupleView",
-                        "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ModifiedContent",
-                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "VStack",
-                                        "printedName": "SwiftUI.VStack<SwiftUI.AnyView>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "AnyView",
-                                            "printedName": "SwiftUI.AnyView",
-                                            "usr": "s:7SwiftUI7AnyViewV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI6VStackV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_FlexFrameLayout",
-                                        "printedName": "SwiftUI._FlexFrameLayout",
-                                        "usr": "s:7SwiftUI16_FlexFrameLayoutV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "_BackgroundStyleModifier",
-                                    "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "Color",
-                                        "printedName": "SwiftUI.Color",
-                                        "usr": "s:7SwiftUI5ColorV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
-                                  }
-                                ],
-                                "usr": "s:7SwiftUI15ModifiedContentV"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Optional",
-                                "printedName": "VeriphOne.Snackbar?",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Snackbar",
-                                    "printedName": "VeriphOne.Snackbar",
-                                    "usr": "s:9VeriphOne8SnackbarV"
-                                  }
-                                ],
-                                "usr": "s:Sq"
-                              }
-                            ]
-                          }
-                        ],
-                        "usr": "s:7SwiftUI9TupleViewV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI6ZStackV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_AppearanceActionModifier",
-                    "printedName": "SwiftUI._AppearanceActionModifier",
-                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
+                ]
               }
             ],
             "declKind": "Var",
@@ -401,6 +363,7 @@
             "mangledName": "$s9VeriphOne0aB4ViewV4bodyQrvp",
             "moduleName": "VeriphOne",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -412,104 +375,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>>, SwiftUI._AppearanceActionModifier>",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ZStack",
-                        "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "TupleView",
-                            "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Tuple",
-                                "printedName": "(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "ModifiedContent",
-                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "VStack",
-                                            "printedName": "SwiftUI.VStack<SwiftUI.AnyView>",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "AnyView",
-                                                "printedName": "SwiftUI.AnyView",
-                                                "usr": "s:7SwiftUI7AnyViewV"
-                                              }
-                                            ],
-                                            "usr": "s:7SwiftUI6VStackV"
-                                          },
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "_FlexFrameLayout",
-                                            "printedName": "SwiftUI._FlexFrameLayout",
-                                            "usr": "s:7SwiftUI16_FlexFrameLayoutV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI15ModifiedContentV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_BackgroundStyleModifier",
-                                        "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "Color",
-                                            "printedName": "SwiftUI.Color",
-                                            "usr": "s:7SwiftUI5ColorV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Optional",
-                                    "printedName": "VeriphOne.Snackbar?",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "Snackbar",
-                                        "printedName": "VeriphOne.Snackbar",
-                                        "usr": "s:9VeriphOne8SnackbarV"
-                                      }
-                                    ],
-                                    "usr": "s:Sq"
-                                  }
-                                ]
-                              }
-                            ],
-                            "usr": "s:7SwiftUI9TupleViewV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI6ZStackV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_AppearanceActionModifier",
-                        "printedName": "SwiftUI._AppearanceActionModifier",
-                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
                       }
-                    ],
-                    "usr": "s:7SwiftUI15ModifiedContentV"
+                    ]
                   }
                 ],
                 "declKind": "Accessor",
@@ -526,9 +401,25 @@
         "mangledName": "$s9VeriphOne0aB4ViewV",
         "moduleName": "VeriphOne",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -541,110 +432,29 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>>, SwiftUI._AppearanceActionModifier>",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ZStack",
-                        "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "TupleView",
-                            "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Tuple",
-                                "printedName": "(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, VeriphOne.Snackbar?)",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "ModifiedContent",
-                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.AnyView>, SwiftUI._FlexFrameLayout>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "VStack",
-                                            "printedName": "SwiftUI.VStack<SwiftUI.AnyView>",
-                                            "children": [
-                                              {
-                                                "kind": "TypeNominal",
-                                                "name": "AnyView",
-                                                "printedName": "SwiftUI.AnyView",
-                                                "usr": "s:7SwiftUI7AnyViewV"
-                                              }
-                                            ],
-                                            "usr": "s:7SwiftUI6VStackV"
-                                          },
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "_FlexFrameLayout",
-                                            "printedName": "SwiftUI._FlexFrameLayout",
-                                            "usr": "s:7SwiftUI16_FlexFrameLayoutV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI15ModifiedContentV"
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_BackgroundStyleModifier",
-                                        "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "Color",
-                                            "printedName": "SwiftUI.Color",
-                                            "usr": "s:7SwiftUI5ColorV"
-                                          }
-                                        ],
-                                        "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Optional",
-                                    "printedName": "VeriphOne.Snackbar?",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "Snackbar",
-                                        "printedName": "VeriphOne.Snackbar",
-                                        "usr": "s:9VeriphOne8SnackbarV"
-                                      }
-                                    ],
-                                    "usr": "s:Sq"
-                                  }
-                                ]
-                              }
-                            ],
-                            "usr": "s:7SwiftUI9TupleViewV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI6ZStackV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_AppearanceActionModifier",
-                        "printedName": "SwiftUI._AppearanceActionModifier",
-                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
                       }
-                    ],
-                    "usr": "s:7SwiftUI15ModifiedContentV"
+                    ]
                   }
                 ]
               }
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -676,6 +486,759 @@
         "moduleName": "VeriphOne",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TypefaceUsage",
+        "printedName": "TypefaceUsage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "useInTitles",
+            "printedName": "useInTitles",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne13TypefaceUsageV11useInTitlesSbvp",
+            "mangledName": "$s9VeriphOne13TypefaceUsageV11useInTitlesSbvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne13TypefaceUsageV11useInTitlesSbvg",
+                "mangledName": "$s9VeriphOne13TypefaceUsageV11useInTitlesSbvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useInBodies",
+            "printedName": "useInBodies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne13TypefaceUsageV11useInBodiesSbvp",
+            "mangledName": "$s9VeriphOne13TypefaceUsageV11useInBodiesSbvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne13TypefaceUsageV11useInBodiesSbvg",
+                "mangledName": "$s9VeriphOne13TypefaceUsageV11useInBodiesSbvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useInButtons",
+            "printedName": "useInButtons",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne13TypefaceUsageV12useInButtonsSbvp",
+            "mangledName": "$s9VeriphOne13TypefaceUsageV12useInButtonsSbvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne13TypefaceUsageV12useInButtonsSbvg",
+                "mangledName": "$s9VeriphOne13TypefaceUsageV12useInButtonsSbvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useInTextFields",
+            "printedName": "useInTextFields",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne13TypefaceUsageV15useInTextFieldsSbvp",
+            "mangledName": "$s9VeriphOne13TypefaceUsageV15useInTextFieldsSbvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne13TypefaceUsageV15useInTextFieldsSbvg",
+                "mangledName": "$s9VeriphOne13TypefaceUsageV15useInTextFieldsSbvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(useInTitles:useInBodies:useInButtons:useInTextFields:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TypefaceUsage",
+                "printedName": "VeriphOne.TypefaceUsage",
+                "usr": "s:9VeriphOne13TypefaceUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VeriphOne13TypefaceUsageV11useInTitles0eF6Bodies0eF7Buttons0eF10TextFieldsACSb_S3btcfc",
+            "mangledName": "$s9VeriphOne13TypefaceUsageV11useInTitles0eF6Bodies0eF7Buttons0eF10TextFieldsACSb_S3btcfc",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9VeriphOne13TypefaceUsageV",
+        "mangledName": "$s9VeriphOne13TypefaceUsageV",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TypefaceBundle",
+        "printedName": "TypefaceBundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fontName",
+            "printedName": "fontName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne14TypefaceBundleV8fontNameSSvp",
+            "mangledName": "$s9VeriphOne14TypefaceBundleV8fontNameSSvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne14TypefaceBundleV8fontNameSSvg",
+                "mangledName": "$s9VeriphOne14TypefaceBundleV8fontNameSSvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fontUrl",
+            "printedName": "fontUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CFURL",
+                "printedName": "CoreFoundation.CFURL",
+                "usr": "c:@T@CFURLRef"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne14TypefaceBundleV7fontUrlSo8CFURLRefavp",
+            "mangledName": "$s9VeriphOne14TypefaceBundleV7fontUrlSo8CFURLRefavp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CFURL",
+                    "printedName": "CoreFoundation.CFURL",
+                    "usr": "c:@T@CFURLRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne14TypefaceBundleV7fontUrlSo8CFURLRefavg",
+                "mangledName": "$s9VeriphOne14TypefaceBundleV7fontUrlSo8CFURLRefavg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne14TypefaceBundleV4size14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s9VeriphOne14TypefaceBundleV4size12CoreGraphics7CGFloatVvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne14TypefaceBundleV4size14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s9VeriphOne14TypefaceBundleV4size12CoreGraphics7CGFloatVvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usage",
+            "printedName": "usage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TypefaceUsage",
+                "printedName": "VeriphOne.TypefaceUsage",
+                "usr": "s:9VeriphOne13TypefaceUsageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne14TypefaceBundleV5usageAA0C5UsageVvp",
+            "mangledName": "$s9VeriphOne14TypefaceBundleV5usageAA0C5UsageVvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypefaceUsage",
+                    "printedName": "VeriphOne.TypefaceUsage",
+                    "usr": "s:9VeriphOne13TypefaceUsageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne14TypefaceBundleV5usageAA0C5UsageVvg",
+                "mangledName": "$s9VeriphOne14TypefaceBundleV5usageAA0C5UsageVvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fontName:fontUrl:size:usage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TypefaceBundle",
+                "printedName": "VeriphOne.TypefaceBundle",
+                "usr": "s:9VeriphOne14TypefaceBundleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CFURL",
+                "printedName": "CoreFoundation.CFURL",
+                "usr": "c:@T@CFURLRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TypefaceUsage",
+                "printedName": "VeriphOne.TypefaceUsage",
+                "usr": "s:9VeriphOne13TypefaceUsageV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VeriphOne14TypefaceBundleV8fontName0E3Url4size5usageACSS_So8CFURLRefa14CoreFoundation7CGFloatVAA0C5UsageVtcfc",
+            "mangledName": "$s9VeriphOne14TypefaceBundleV8fontName0E3Url4size5usageACSS_So8CFURLRefa12CoreGraphics7CGFloatVAA0C5UsageVtcfc",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9VeriphOne14TypefaceBundleV",
+        "mangledName": "$s9VeriphOne14TypefaceBundleV",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TypographySettings",
+        "printedName": "TypographySettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "typefaces",
+            "printedName": "typefaces",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[VeriphOne.TypefaceBundle]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypefaceBundle",
+                    "printedName": "VeriphOne.TypefaceBundle",
+                    "usr": "s:9VeriphOne14TypefaceBundleV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne18TypographySettingsV9typefacesSayAA14TypefaceBundleVGvp",
+            "mangledName": "$s9VeriphOne18TypographySettingsV9typefacesSayAA14TypefaceBundleVGvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[VeriphOne.TypefaceBundle]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TypefaceBundle",
+                        "printedName": "VeriphOne.TypefaceBundle",
+                        "usr": "s:9VeriphOne14TypefaceBundleV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne18TypographySettingsV9typefacesSayAA14TypefaceBundleVGvg",
+                "mangledName": "$s9VeriphOne18TypographySettingsV9typefacesSayAA14TypefaceBundleVGvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(typefaces:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TypographySettings",
+                "printedName": "VeriphOne.TypographySettings",
+                "usr": "s:9VeriphOne18TypographySettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[VeriphOne.TypefaceBundle]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypefaceBundle",
+                    "printedName": "VeriphOne.TypefaceBundle",
+                    "usr": "s:9VeriphOne14TypefaceBundleV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VeriphOne18TypographySettingsV9typefacesACSayAA14TypefaceBundleVG_tcfc",
+            "mangledName": "$s9VeriphOne18TypographySettingsV9typefacesACSayAA14TypefaceBundleVG_tcfc",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9VeriphOne18TypographySettingsV",
+        "mangledName": "$s9VeriphOne18TypographySettingsV",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIConfig",
+        "printedName": "UIConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "typography",
+            "printedName": "typography",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.TypographySettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypographySettings",
+                    "printedName": "VeriphOne.TypographySettings",
+                    "usr": "s:9VeriphOne18TypographySettingsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne8UIConfigV10typographyAA18TypographySettingsVSgvp",
+            "mangledName": "$s9VeriphOne8UIConfigV10typographyAA18TypographySettingsVSgvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VeriphOne.TypographySettings?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TypographySettings",
+                        "printedName": "VeriphOne.TypographySettings",
+                        "usr": "s:9VeriphOne18TypographySettingsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne8UIConfigV10typographyAA18TypographySettingsVSgvg",
+                "mangledName": "$s9VeriphOne8UIConfigV10typographyAA18TypographySettingsVSgvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(typography:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIConfig",
+                "printedName": "VeriphOne.UIConfig",
+                "usr": "s:9VeriphOne8UIConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.TypographySettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypographySettings",
+                    "printedName": "VeriphOne.TypographySettings",
+                    "usr": "s:9VeriphOne18TypographySettingsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VeriphOne8UIConfigV10typographyAcA18TypographySettingsVSg_tcfc",
+            "mangledName": "$s9VeriphOne8UIConfigV10typographyAcA18TypographySettingsVSg_tcfc",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9VeriphOne8UIConfigV",
+        "mangledName": "$s9VeriphOne8UIConfigV",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -723,2104 +1286,459 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/LocalizationHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 279,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/LocalizationHelper.swift",
-      "kind": "StringLiteral",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "kind": "BooleanLiteral",
       "offset": 292,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 242,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
-      "kind": "StringLiteral",
-      "offset": 308,
-      "length": 18,
-      "value": "\"error_view_title\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
-      "kind": "StringLiteral",
-      "offset": 460,
-      "length": 27,
-      "value": "\"network_error_description\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
-      "kind": "StringLiteral",
-      "offset": 608,
-      "length": 24,
-      "value": "\"error_view_description\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
-      "kind": "StringLiteral",
-      "offset": 744,
-      "length": 20,
-      "value": "\"close_button_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1877,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2450,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/ThemeModifier.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2661,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 264,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
       "kind": "StringLiteral",
-      "offset": 314,
+      "offset": 342,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 801,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 948,
-      "length": 109,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 1,
-      "value": "\" (+\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 1018,
-      "length": 1,
-      "value": "\") \""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 1056,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 1196,
-      "length": 25,
-      "value": "\"chevron.up.chevron.down\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 1324,
-      "length": 29,
-      "value": "\"country_code_selector_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 1555,
-      "length": 25,
-      "value": "\"chevron.up.chevron.down\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1815,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2048,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 2156,
-      "length": 30,
-      "value": "\"search_textfield_placeholder\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 2444,
-      "length": 57,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 2471,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 2500,
-      "length": 35,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 2606,
-      "length": 27,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "StringLiteral",
-      "offset": 2632,
-      "length": 35,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2988,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 65,
       "length": 7,
       "value": "\"1.0.8\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 92,
       "length": 55,
       "value": "\"https:\/\/service.veriph.one\/sdk-api\/phone-verification\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 8,
       "value": "\"v1.0.0\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 46,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 220,
       "length": 1,
       "value": "\"\/country-codes\/\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 47,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 1,
       "value": "\"\/create-attempt\/\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 52,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 1,
       "value": "\"\/verification-status\/\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 415,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 447,
       "length": 47,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 463,
       "length": 1,
       "value": "\"\/submit-attempt\/\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 46,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 1,
       "value": "\"\/session-style\/\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
       "offset": 569,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/NetworkReachabilityManager.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/NetworkReachabilityManager.swift",
       "kind": "BooleanLiteral",
       "offset": 243,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/NetworkReachabilityManager.swift",
-      "kind": "StringLiteral",
-      "offset": 428,
-      "length": 28,
-      "value": "\"NetworkReachabilityManager\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 137,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 190,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 215,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 352,
-      "length": 17,
-      "value": "\"inverse_otp_sms\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 425,
-      "length": 22,
-      "value": "\"inverse_otp_whatsapp\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 490,
-      "length": 9,
-      "value": "\"otp_sms\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 547,
-      "length": 14,
-      "value": "\"otp_whatsapp\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 605,
-      "length": 10,
-      "value": "\"robocall\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 137,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 170,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 190,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 215,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 236,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 137,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 170,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 190,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 215,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 236,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/PhoneNumber.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/PhoneNumber.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
       "kind": "FloatLiteral",
       "offset": 178,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 258,
+      "offset": 286,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
-      "kind": "IntegerLiteral",
-      "offset": 623,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
-      "kind": "IntegerLiteral",
-      "offset": 664,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
-      "kind": "FloatLiteral",
-      "offset": 785,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
-      "kind": "FloatLiteral",
-      "offset": 827,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
-      "kind": "FloatLiteral",
-      "offset": 993,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1043,
+      "offset": 254,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
-      "kind": "FloatLiteral",
-      "offset": 1087,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/StatusIndicator.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
       "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 226,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 345,
+      "offset": 373,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 951,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 981,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1021,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "StringLiteral",
-      "offset": 1393,
-      "length": 24,
-      "value": "\"expiration_timer_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1728,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1772,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1882,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1890,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1937,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1944,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1951,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 281,
+      "offset": 309,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "StringLiteral",
-      "offset": 445,
-      "length": 30,
-      "value": "\"troubleshooting_button_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 513,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 803,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
-      "kind": "StringLiteral",
-      "offset": 914,
-      "length": 30,
-      "value": "\"troubleshooting_dialog_title\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 394,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 404,
+      "offset": 432,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 445,
+      "offset": 473,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 486,
+      "offset": 514,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 535,
+      "offset": 563,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 596,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 792,
-      "length": 11,
-      "value": "\"otp_title\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1086,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 1333,
-      "length": 27,
-      "value": "\"otp_textfield_placeholder\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1634,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1704,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1756,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1809,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1851,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2115,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2260,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2313,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2435,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2484,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 2795,
-      "length": 17,
-      "value": "\"otp_error_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 2934,
-      "length": 18,
-      "value": "\"otp_button_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3186,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 3419,
-      "length": 26,
-      "value": "\"edit_number_dialog_title\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 3572,
-      "length": 26,
-      "value": "\"edit_number_button_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 3909,
-      "length": 17,
-      "value": "\"otp_description\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 381,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 487,
-      "length": 6,
-      "value": "127397"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 712,
-      "length": 4,
-      "value": "\"es\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 851,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1169,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1228,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1266,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1306,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1827,
-      "length": 8,
-      "value": "\"\\p{M}\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/CountryCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1843,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/PollingManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 373,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
       "kind": "Array",
-      "offset": 323,
+      "offset": 351,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 553,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
-      "kind": "StringLiteral",
-      "offset": 619,
-      "length": 18,
-      "value": "\"phone_form_title\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
-      "kind": "StringLiteral",
-      "offset": 735,
-      "length": 24,
-      "value": "\"phone_form_description\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
-      "kind": "StringLiteral",
-      "offset": 991,
-      "length": 36,
-      "value": "\"phone_number_textfield_placeholder\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1453,
+      "offset": 586,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
-      "kind": "StringLiteral",
-      "offset": 1540,
-      "length": 31,
-      "value": "\"keyboard.chevron.compact.down\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
-      "kind": "StringLiteral",
-      "offset": 1701,
-      "length": 25,
-      "value": "\"phone_form_button_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1993,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
       "kind": "BooleanLiteral",
-      "offset": 498,
+      "offset": 626,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
       "kind": "BooleanLiteral",
-      "offset": 538,
+      "offset": 786,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 698,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
       "kind": "StringLiteral",
-      "offset": 745,
+      "offset": 833,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1733,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1994,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2019,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "StringLiteral",
-      "offset": 2859,
-      "length": 40,
-      "value": "\"verification_alternative_success_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2936,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "StringLiteral",
-      "offset": 3474,
-      "length": 40,
-      "value": "\"verification_alternative_success_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3551,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3601,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "StringLiteral",
-      "offset": 3750,
-      "length": 38,
-      "value": "\"verification_alternative_error_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3821,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3919,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4241,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4380,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5924,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 347,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 543,
-      "length": 19,
-      "value": "\"inverse_otp_title\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 725,
-      "length": 26,
-      "value": "\"inverse_otp_button_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 1369,
-      "length": 25,
-      "value": "\"inverse_otp_description\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 1566,
-      "length": 21,
-      "value": "\"inverse_otp_message\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 1910,
-      "length": 36,
-      "value": "\"sms:\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 1929,
-      "length": 1,
-      "value": "\"&body=\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 1945,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "Dictionary",
-      "offset": 2009,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 2189,
-      "length": 3,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 2351,
-      "length": 62,
-      "value": "\"whatsapp:\/\/send?phone=\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 2388,
-      "length": 1,
-      "value": "\"&text=\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "StringLiteral",
-      "offset": 2412,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
-      "kind": "Dictionary",
-      "offset": 2481,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 9,
       "value": "\"default\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 444,
-      "length": 9,
-      "value": "\"default\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 4292,
-      "length": 15,
-      "value": "\"?sessionUuid=\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 4509,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 4568,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 4606,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 4646,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5063,
       "length": 9,
       "value": "\"#5765FC\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5088,
       "length": 6,
       "value": "\"#fff\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5156,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5181,
       "length": 6,
       "value": "\"#fff\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5251,
       "length": 11,
       "value": "\"#FF1C1B1F\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5387,
       "length": 9,
       "value": "\"#EEEEF0\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5412,
       "length": 9,
       "value": "\"#FFFBFE\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5528,
       "length": 9,
       "value": "\"#5765FC\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5553,
       "length": 6,
       "value": "\"#fff\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5621,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5646,
       "length": 6,
       "value": "\"#fff\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5716,
       "length": 9,
       "value": "\"#FFFBFE\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5850,
       "length": 9,
       "value": "\"#1C1C1E\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5875,
       "length": 9,
       "value": "\"#121212\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
       "offset": 5944,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6379,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6500,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6547,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6560,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6565,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6577,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6581,
-      "length": 3,
-      "value": "0xF"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6588,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6599,
-      "length": 3,
-      "value": "0xF"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6606,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6623,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6670,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6682,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6693,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6697,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6709,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6728,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6783,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6794,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6799,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6812,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6816,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6828,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6979,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7015,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7050,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7088,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 166,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 303,
-      "length": 96,
-      "value": "\"I_%%_\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 321,
-      "length": 1,
-      "value": "\"_%%_\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 344,
-      "length": 1,
-      "value": "\"_%%_\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 362,
-      "length": 1,
-      "value": "\"_%%_\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 383,
-      "length": 1,
-      "value": "\"_%%_\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 498,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 587,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 634,
-      "length": 37,
-      "value": "\"Version \""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 653,
-      "length": 1,
-      "value": "\" (Build \""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 669,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 689,
-      "length": 17,
-      "value": "\"Unknown Version\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 966,
-      "length": 49,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 982,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 998,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 1014,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "StringLiteral",
-      "offset": 1176,
-      "length": 27,
-      "value": "\"unknown.bundle.identifier\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/UserAgent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1458,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 639,
-      "length": 13,
-      "value": "\"attemptUuid\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 675,
-      "length": 11,
-      "value": "\"userAgent\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 939,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 995,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1029,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1069,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1437,
-      "length": 5,
-      "value": "20012"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1891,
-      "length": 13,
-      "value": "\"attemptUuid\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1927,
-      "length": 6,
-      "value": "\"code\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1949,
-      "length": 11,
-      "value": "\"userAgent\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 2213,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 2269,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 2303,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 2343,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2711,
-      "length": 5,
-      "value": "20012"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
       "offset": 185,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
       "offset": 227,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 3,
       "value": "110"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
       "offset": 320,
       "length": 3,
       "value": "111"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
       "offset": 437,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
       "offset": 489,
       "length": 3,
       "value": "900"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "StringLiteral",
-      "offset": 656,
-      "length": 27,
-      "value": "\"inverse_not_working_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "StringLiteral",
-      "offset": 747,
-      "length": 36,
-      "value": "\"inverse_not_working_whatsapp_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "StringLiteral",
-      "offset": 845,
-      "length": 34,
-      "value": "\"inverse_cant_send_messages_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "StringLiteral",
-      "offset": 953,
-      "length": 46,
-      "value": "\"inverse_cant_send_messages_no_whatsapp_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "StringLiteral",
-      "offset": 1060,
-      "length": 33,
-      "value": "\"traditional_not_delivered_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "StringLiteral",
-      "offset": 1163,
-      "length": 42,
-      "value": "\"traditional_not_delivered_whatsapp_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "StringLiteral",
-      "offset": 1251,
-      "length": 18,
-      "value": "\"no_service_label\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 185,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 227,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 268,
-      "length": 3,
-      "value": "110"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 320,
-      "length": 3,
-      "value": "111"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 437,
-      "length": 3,
-      "value": "201"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 185,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 227,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 268,
-      "length": 3,
-      "value": "110"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 320,
-      "length": 3,
-      "value": "111"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 437,
-      "length": 3,
-      "value": "201"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1081,
-      "length": 11,
-      "value": "\"userAgent\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1123,
-      "length": 13,
-      "value": "\"sessionUuid\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1234,
-      "length": 17,
-      "value": "\"userPhoneNumber\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1269,
-      "length": 17,
-      "value": "\"countryCodeUuid\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1317,
-      "length": 17,
-      "value": "\"cellphoneNumber\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1439,
-      "length": 24,
-      "value": "\"userCancellationReason\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1704,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1760,
-      "length": 11,
-      "value": "\"x-api-key\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1794,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "StringLiteral",
-      "offset": 1834,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2193,
-      "length": 5,
-      "value": "20012"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2299,
-      "length": 5,
-      "value": "14224"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/Attempt.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2411,
-      "length": 5,
-      "value": "20014"
-    },
-    {
-      "filePath": "\/Users\/marco\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/AsyncImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 473,
-      "length": 2,
-      "value": "70"
     }
   ]
 }
