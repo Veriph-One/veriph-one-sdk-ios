@@ -9,160 +9,77 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "Network",
         "printedName": "Network",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
@@ -176,10 +93,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
@@ -219,10 +140,63 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUICore",
+        "printedName": "SwiftUICore",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
@@ -236,20 +210,21 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
@@ -463,30 +438,21 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "TypeDecl",
@@ -720,8 +686,7 @@
         "mangledName": "$s9VeriphOne13TypefaceUsageV",
         "moduleName": "VeriphOne",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -1118,6 +1083,520 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ForcedLanguage",
+        "printedName": "ForcedLanguage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne14ForcedLanguageV8languageSSvp",
+            "mangledName": "$s9VeriphOne14ForcedLanguageV8languageSSvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne14ForcedLanguageV8languageSSvg",
+                "mangledName": "$s9VeriphOne14ForcedLanguageV8languageSSvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(language:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ForcedLanguage",
+                "printedName": "VeriphOne.ForcedLanguage",
+                "usr": "s:9VeriphOne14ForcedLanguageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VeriphOne14ForcedLanguageV8languageACSS_tcfc",
+            "mangledName": "$s9VeriphOne14ForcedLanguageV8languageACSS_tcfc",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9VeriphOne14ForcedLanguageV",
+        "mangledName": "$s9VeriphOne14ForcedLanguageV",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ForcedMode",
+        "printedName": "ForcedMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "darkMode",
+            "printedName": "darkMode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VeriphOne.ForcedMode.Type) -> VeriphOne.ForcedMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForcedMode",
+                    "printedName": "VeriphOne.ForcedMode",
+                    "usr": "s:9VeriphOne10ForcedModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VeriphOne.ForcedMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ForcedMode",
+                        "printedName": "VeriphOne.ForcedMode",
+                        "usr": "s:9VeriphOne10ForcedModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9VeriphOne10ForcedModeO04darkD0yA2CmF",
+            "mangledName": "$s9VeriphOne10ForcedModeO04darkD0yA2CmF",
+            "moduleName": "VeriphOne"
+          },
+          {
+            "kind": "Var",
+            "name": "lightMode",
+            "printedName": "lightMode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VeriphOne.ForcedMode.Type) -> VeriphOne.ForcedMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForcedMode",
+                    "printedName": "VeriphOne.ForcedMode",
+                    "usr": "s:9VeriphOne10ForcedModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VeriphOne.ForcedMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ForcedMode",
+                        "printedName": "VeriphOne.ForcedMode",
+                        "usr": "s:9VeriphOne10ForcedModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9VeriphOne10ForcedModeO05lightD0yA2CmF",
+            "mangledName": "$s9VeriphOne10ForcedModeO05lightD0yA2CmF",
+            "moduleName": "VeriphOne"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ForcedMode",
+                "printedName": "VeriphOne.ForcedMode",
+                "usr": "s:9VeriphOne10ForcedModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ForcedMode",
+                "printedName": "VeriphOne.ForcedMode",
+                "usr": "s:9VeriphOne10ForcedModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9VeriphOne10ForcedModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9VeriphOne10ForcedModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "VeriphOne",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne10ForcedModeO9hashValueSivp",
+            "mangledName": "$s9VeriphOne10ForcedModeO9hashValueSivp",
+            "moduleName": "VeriphOne",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne10ForcedModeO9hashValueSivg",
+                "mangledName": "$s9VeriphOne10ForcedModeO9hashValueSivg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9VeriphOne10ForcedModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9VeriphOne10ForcedModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "VeriphOne",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9VeriphOne10ForcedModeO",
+        "mangledName": "$s9VeriphOne10ForcedModeO",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ForcedUIElements",
+        "printedName": "ForcedUIElements",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "forcedLanguage",
+            "printedName": "forcedLanguage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.ForcedLanguage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForcedLanguage",
+                    "printedName": "VeriphOne.ForcedLanguage",
+                    "usr": "s:9VeriphOne14ForcedLanguageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne16ForcedUIElementsV14forcedLanguageAA0cF0VSgvp",
+            "mangledName": "$s9VeriphOne16ForcedUIElementsV14forcedLanguageAA0cF0VSgvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VeriphOne.ForcedLanguage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ForcedLanguage",
+                        "printedName": "VeriphOne.ForcedLanguage",
+                        "usr": "s:9VeriphOne14ForcedLanguageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne16ForcedUIElementsV14forcedLanguageAA0cF0VSgvg",
+                "mangledName": "$s9VeriphOne16ForcedUIElementsV14forcedLanguageAA0cF0VSgvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "forcedMode",
+            "printedName": "forcedMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.ForcedMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForcedMode",
+                    "printedName": "VeriphOne.ForcedMode",
+                    "usr": "s:9VeriphOne10ForcedModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne16ForcedUIElementsV10forcedModeAA0cF0OSgvp",
+            "mangledName": "$s9VeriphOne16ForcedUIElementsV10forcedModeAA0cF0OSgvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VeriphOne.ForcedMode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ForcedMode",
+                        "printedName": "VeriphOne.ForcedMode",
+                        "usr": "s:9VeriphOne10ForcedModeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne16ForcedUIElementsV10forcedModeAA0cF0OSgvg",
+                "mangledName": "$s9VeriphOne16ForcedUIElementsV10forcedModeAA0cF0OSgvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(forcedLanguage:forcedMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ForcedUIElements",
+                "printedName": "VeriphOne.ForcedUIElements",
+                "usr": "s:9VeriphOne16ForcedUIElementsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.ForcedLanguage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForcedLanguage",
+                    "printedName": "VeriphOne.ForcedLanguage",
+                    "usr": "s:9VeriphOne14ForcedLanguageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.ForcedMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForcedMode",
+                    "printedName": "VeriphOne.ForcedMode",
+                    "usr": "s:9VeriphOne10ForcedModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VeriphOne16ForcedUIElementsV14forcedLanguage0E4ModeAcA0cF0VSg_AA0cG0OSgtcfc",
+            "mangledName": "$s9VeriphOne16ForcedUIElementsV14forcedLanguage0E4ModeAcA0cF0VSg_AA0cG0OSgtcfc",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9VeriphOne16ForcedUIElementsV",
+        "mangledName": "$s9VeriphOne16ForcedUIElementsV",
+        "moduleName": "VeriphOne",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIConfig",
         "printedName": "UIConfig",
         "children": [
@@ -1182,9 +1661,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "forcedUIElements",
+            "printedName": "forcedUIElements",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.ForcedUIElements?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForcedUIElements",
+                    "printedName": "VeriphOne.ForcedUIElements",
+                    "usr": "s:9VeriphOne16ForcedUIElementsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VeriphOne8UIConfigV16forcedUIElementsAA06ForcedE0VSgvp",
+            "mangledName": "$s9VeriphOne8UIConfigV16forcedUIElementsAA06ForcedE0VSgvp",
+            "moduleName": "VeriphOne",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VeriphOne.ForcedUIElements?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ForcedUIElements",
+                        "printedName": "VeriphOne.ForcedUIElements",
+                        "usr": "s:9VeriphOne16ForcedUIElementsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VeriphOne8UIConfigV16forcedUIElementsAA06ForcedE0VSgvg",
+                "mangledName": "$s9VeriphOne8UIConfigV16forcedUIElementsAA06ForcedE0VSgvg",
+                "moduleName": "VeriphOne",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(typography:)",
+            "printedName": "init(typography:forcedUIElements:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1205,11 +1744,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VeriphOne.ForcedUIElements?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForcedUIElements",
+                    "printedName": "VeriphOne.ForcedUIElements",
+                    "usr": "s:9VeriphOne16ForcedUIElementsV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9VeriphOne8UIConfigV10typographyAcA18TypographySettingsVSg_tcfc",
-            "mangledName": "$s9VeriphOne8UIConfigV10typographyAcA18TypographySettingsVSg_tcfc",
+            "usr": "s:9VeriphOne8UIConfigV10typography16forcedUIElementsAcA18TypographySettingsVSg_AA06ForcedF0VSgtcfc",
+            "mangledName": "$s9VeriphOne8UIConfigV10typography16forcedUIElementsAcA18TypographySettingsVSg_AA06ForcedF0VSgtcfc",
             "moduleName": "VeriphOne",
             "declAttributes": [
               "AccessControl"
@@ -1246,497 +1799,583 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "VeriphOne",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VeriphOne"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 292,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/LocalizationHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 75,
+      "length": 16,
+      "value": "\"AppleLanguages\""
     },
     {
-      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/CountryCodeSelector.swift",
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ErrorView.swift",
       "kind": "StringLiteral",
-      "offset": 342,
-      "length": 2,
-      "value": "\"\""
+      "offset": 57,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/LocalizationService.swift",
+      "kind": "StringLiteral",
+      "offset": 81,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/LocalizationService.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 17,
+      "value": "\"changedLanguage\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 65,
+      "offset": 21,
       "length": 7,
-      "value": "\"1.0.8\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 92,
+      "offset": 143,
       "length": 55,
       "value": "\"https:\/\/service.veriph.one\/sdk-api\/phone-verification\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 166,
+      "offset": 224,
       "length": 8,
       "value": "\"v1.0.0\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 204,
+      "offset": 262,
       "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 278,
       "length": 1,
       "value": "\"\/country-codes\/\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 249,
+      "offset": 307,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 281,
+      "offset": 339,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 297,
+      "offset": 355,
       "length": 1,
       "value": "\"\/create-attempt\/\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 327,
+      "offset": 385,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 422,
       "length": 52,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 380,
+      "offset": 438,
       "length": 1,
       "value": "\"\/verification-status\/\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 415,
+      "offset": 473,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 447,
+      "offset": 505,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 463,
+      "offset": 521,
       "length": 1,
       "value": "\"\/submit-attempt\/\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 493,
+      "offset": 551,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 582,
       "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 540,
+      "offset": 598,
       "length": 1,
       "value": "\"\/session-style\/\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 627,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/NetworkReachabilityManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 243,
+      "offset": 182,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 137,
+      "offset": 86,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 170,
+      "offset": 121,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 190,
+      "offset": 143,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 215,
+      "offset": 170,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 236,
+      "offset": 193,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/PhoneNumber.swift",
       "kind": "StringLiteral",
-      "offset": 130,
+      "offset": 84,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
-      "kind": "FloatLiteral",
-      "offset": 178,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Snackbar.swift",
-      "kind": "FloatLiteral",
-      "offset": 286,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 254,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/ExpirationTimer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 373,
-      "length": 1,
-      "value": "1"
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
+      "kind": "StringLiteral",
+      "offset": 67,
+      "length": 10,
+      "value": "\"language\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/TroubleshootingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 309,
+      "offset": 347,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "StringLiteral",
-      "offset": 394,
+      "offset": 55,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 432,
+      "offset": 482,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 473,
+      "offset": 523,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 514,
+      "offset": 564,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/OtpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 563,
+      "offset": 613,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 135,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/Snackbar.swift",
+      "kind": "FloatLiteral",
+      "offset": 243,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/StatusIndicator.swift",
+      "kind": "StringLiteral",
+      "offset": 63,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 67,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/CountryCodeSelector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 330,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/CountryCodeSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/ExpirationTimer.swift",
+      "kind": "StringLiteral",
+      "offset": 63,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/ExpirationTimer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 292,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/ExpirationTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/PaddedButton.swift",
+      "kind": "StringLiteral",
+      "offset": 60,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
+      "kind": "StringLiteral",
+      "offset": 57,
+      "length": 10,
+      "value": "\"language\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/PhoneForm.swift",
       "kind": "Array",
-      "offset": 351,
+      "offset": 395,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
+      "kind": "StringLiteral",
+      "offset": 82,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
       "kind": "BooleanLiteral",
-      "offset": 586,
+      "offset": 937,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
       "kind": "BooleanLiteral",
-      "offset": 626,
+      "offset": 977,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
       "kind": "BooleanLiteral",
-      "offset": 786,
+      "offset": 1137,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/VeriphOneView.swift",
       "kind": "StringLiteral",
-      "offset": 833,
+      "offset": 1184,
       "length": 2,
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/InverseOtpView.swift",
+      "kind": "StringLiteral",
+      "offset": 62,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 444,
+      "offset": 397,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5063,
+      "offset": 5650,
       "length": 9,
       "value": "\"#5765FC\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5088,
+      "offset": 5675,
       "length": 6,
       "value": "\"#fff\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5156,
+      "offset": 5718,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5181,
+      "offset": 5743,
       "length": 6,
       "value": "\"#fff\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5251,
+      "offset": 5788,
       "length": 11,
       "value": "\"#FF1C1B1F\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5387,
+      "offset": 5874,
       "length": 9,
       "value": "\"#EEEEF0\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5412,
+      "offset": 5899,
       "length": 9,
       "value": "\"#FFFBFE\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5528,
+      "offset": 5996,
       "length": 9,
       "value": "\"#5765FC\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5553,
+      "offset": 6021,
       "length": 6,
       "value": "\"#fff\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5621,
+      "offset": 6064,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5646,
+      "offset": 6089,
       "length": 6,
       "value": "\"#fff\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5716,
+      "offset": 6134,
       "length": 9,
       "value": "\"#FFFBFE\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5850,
+      "offset": 6218,
       "length": 9,
       "value": "\"#1C1C1E\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5875,
+      "offset": 6243,
       "length": 9,
       "value": "\"#121212\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5944,
+      "offset": 6313,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 6589,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 6719,
+      "length": 29,
+      "value": "\"inverse_otp_preffix_default\""
+    },
+    {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
-      "offset": 185,
+      "offset": 129,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
-      "offset": 227,
+      "offset": 173,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
-      "offset": 268,
+      "offset": 216,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
-      "offset": 320,
+      "offset": 270,
       "length": 3,
       "value": "111"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
-      "offset": 389,
+      "offset": 343,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
-      "offset": 437,
+      "offset": 393,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 449,
       "length": 3,
       "value": "900"
     }

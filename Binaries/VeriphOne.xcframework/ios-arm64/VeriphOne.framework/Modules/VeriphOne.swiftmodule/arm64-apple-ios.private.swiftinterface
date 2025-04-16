@@ -1,12 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VeriphOne
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VeriphOne
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import Combine
 import Foundation
 import Network
 import Swift
 import SwiftUI
+import SwiftUICore
 import UIKit
 @_exported import VeriphOne
 import WebKit
@@ -19,7 +20,6 @@ public func registerTypeface(fontUrl: CoreFoundation.CFURL)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s9VeriphOne0aB4ViewV4bodyQrvp", 0) __
 }
 public struct TypefaceUsage {
@@ -40,8 +40,29 @@ public struct TypographySettings {
   public let typefaces: [VeriphOne.TypefaceBundle]
   public init(typefaces: [VeriphOne.TypefaceBundle])
 }
+public struct ForcedLanguage {
+  public let language: Swift.String
+  public init(language: Swift.String)
+}
+public enum ForcedMode {
+  case darkMode
+  case lightMode
+  public static func == (a: VeriphOne.ForcedMode, b: VeriphOne.ForcedMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ForcedUIElements {
+  public let forcedLanguage: VeriphOne.ForcedLanguage?
+  public let forcedMode: VeriphOne.ForcedMode?
+  public init(forcedLanguage: VeriphOne.ForcedLanguage?, forcedMode: VeriphOne.ForcedMode?)
+}
 public struct UIConfig {
   public let typography: VeriphOne.TypographySettings?
-  public init(typography: VeriphOne.TypographySettings?)
+  public let forcedUIElements: VeriphOne.ForcedUIElements?
+  public init(typography: VeriphOne.TypographySettings?, forcedUIElements: VeriphOne.ForcedUIElements?)
 }
 extension VeriphOne.VeriphOneView : Swift.Sendable {}
+extension VeriphOne.ForcedMode : Swift.Equatable {}
+extension VeriphOne.ForcedMode : Swift.Hashable {}

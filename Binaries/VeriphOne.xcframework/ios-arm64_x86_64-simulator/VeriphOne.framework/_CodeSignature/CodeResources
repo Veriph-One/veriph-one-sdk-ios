@@ -6,55 +6,55 @@
 	<dict>
 		<key>Headers/VeriphOne-Swift.h</key>
 		<data>
-		x43uvdxibEQ43zqZp0M92VUKPxU=
+		ujB3ZkXUcPoDWvYRLqsTnHw5bV0=
 		</data>
 		<key>Headers/VeriphOne.h</key>
 		<data>
-		iZmqFD0IcJISDxJuIRlDOuH0yZI=
+		dC20JQbpU5crituwIDeR1I4VExE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Bkww2jUGxbAGN518pv+k5vDEYFc=
+		unYv3tSJYt/70sTv+F9FKM2CSEo=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XUXFWex2Zv8Di+GJCw2Ojpe0yu4=
+		4y6vYSIJhahK+buKGbFtlSYsqnc=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		s+PaZYlpQ1okQXnowBVmHFJZDAE=
+		cfXSaa+17JFQhnj78F7i0OYVWfM=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ygC88Ldan3gN5HZU34h0wxLcRYE=
+		kuCIzXiHhyRSStM9HD9JAvaVt18=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		s+PaZYlpQ1okQXnowBVmHFJZDAE=
+		cfXSaa+17JFQhnj78F7i0OYVWfM=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mrWgCQMbB1b5/VjrZdIAZGa1Mi4=
+		VOsRcHYaKa6YhqA2VxNJjKZQ0xY=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XUXFWex2Zv8Di+GJCw2Ojpe0yu4=
+		4y6vYSIJhahK+buKGbFtlSYsqnc=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PhQTb7DocafpTh/oRG44+gGDmCs=
+		OQLnNtXal4O+QHDZXcGdbtkShyE=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		53TwsNOIQn4zH3/xWuSEHXko+KU=
+		j5xZOwRMGyw5KhfQGQPrvKnvNDo=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PhQTb7DocafpTh/oRG44+gGDmCs=
+		OQLnNtXal4O+QHDZXcGdbtkShyE=
 		</data>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		97Hbav3WDwktj4W5nutXV+EkODg=
+		K2WwIEIaNL8hmsv59RkCNau19oA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YgzZ3Yg/3QoAjZJ6tUzPtuPbliE=
+			r7J0paNF96BTRILnu6klBpc9O/E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -73,7 +73,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ax1aUJ97Uw7vD7SR5ETRrZsk3A=
+			yi/yJ21ZByEGlLyiE14UeDef/V4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -85,84 +85,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			brvrW/kTjOaJZLTcv8n/dW0pKwmZUGF39cTnW5icDUk=
+			9pHkmURoE8Xhx4V/tbDTvX0q9NM8ETl9nt2HnTJVS8M=
 			</data>
 		</dict>
 		<key>Headers/VeriphOne.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NuljiyZaJLlak36atFUya6AYSxlVhNY5IgWD5C+3Juc=
+			5/8lXiHKWfr0gE6rtNwPTqtGExSsf/Cnf3IzpLBwTdA=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RHktd+781AliHo9yLUDhMB/hJ6aUP7XYPnrc2nw78N4=
+			UoK9CXrG4dz8RrgLw+IhoNqREQZ21G5I+4bFScHTavY=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xfevXoAYI08xA992oKntZuJjSuBSeH/mFH2K8zqq5/4=
+			6lyJssdX15nxJYmwplIGJj7JeTasT4N4q4dkMlUibds=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yk2VVYHfYyOID8HhLKmx5eVc7dCvi6kgbb2BEUfF+30=
+			M+CP9JRDNXp6nf4xE62ccjmsSd8E71p/TxgkZeRzOlQ=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xfevXoAYI08xA992oKntZuJjSuBSeH/mFH2K8zqq5/4=
+			6lyJssdX15nxJYmwplIGJj7JeTasT4N4q4dkMlUibds=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jCbo96xDW3W+bRk9c6cvEbR+yBIVK0gunnvz2qH0ejY=
+			dzaV2EocIRRw9jtrX38aYC2puqRaycXGYmSxJAixWII=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RHktd+781AliHo9yLUDhMB/hJ6aUP7XYPnrc2nw78N4=
+			UoK9CXrG4dz8RrgLw+IhoNqREQZ21G5I+4bFScHTavY=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CQh+L+kuaJAyDHQ2txC/nbFeIMXNwDPBcc5sT/a/ruQ=
+			+Kn4Pf+QmV/IB7AfvzrAP6WvREwBqvKE+uUOS9HBa64=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KxsUoZup5dUZuGEV9+7fUYkxP01+K7TT8nk5fygm+Us=
+			8jtUMO1DB4jpBWdi9Zf5kjEiuvuAd0wNONiJ5hml5WM=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CQh+L+kuaJAyDHQ2txC/nbFeIMXNwDPBcc5sT/a/ruQ=
+			+Kn4Pf+QmV/IB7AfvzrAP6WvREwBqvKE+uUOS9HBa64=
 			</data>
 		</dict>
 		<key>Modules/VeriphOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			czmQy1Vyq2RlOMoph/BLswer4BuPL95nLLEJb54syiY=
+			UB562fGBWz/WzwEqC+RwweONEUjIHBNu19vy7Vcr5+A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u3vWPp9P6qtdPm1pRJLlKyRoQjzaLjSehc6YErLd6Wo=
+			OynXQHBx1sxj/7nXO45Ebw8veaQnbOZ8g7WoRiiD524=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fLCwL7a48HOq98hARvYLykWKbmNtqVq2nIZRzBKGzNs=
+			+XL8eXATJ/u76MvZXMm3ulbEU6TxOn1WZGXQzmV53rA=
 			</data>
 			<key>optional</key>
 			<true/>
