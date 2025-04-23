@@ -69,15 +69,15 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUICore",
-        "printedName": "SwiftUICore",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "VeriphOne"
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "SwiftUICore",
+        "printedName": "SwiftUICore",
         "declKind": "Import",
         "moduleName": "VeriphOne"
       },
@@ -1852,7 +1852,7 @@
       "kind": "StringLiteral",
       "offset": 21,
       "length": 7,
-      "value": "\"1.2.0\""
+      "value": "\"1.2.1\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Util\/VeriphOneConstants.swift",
@@ -1981,6 +1981,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/StatusIndicator.swift",
+      "kind": "StringLiteral",
+      "offset": 63,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/CountryCodeSelector.swift",
       "kind": "StringLiteral",
       "offset": 67,
@@ -2042,13 +2049,6 @@
       "offset": 243,
       "length": 3,
       "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/View\/Components\/StatusIndicator.swift",
-      "kind": "StringLiteral",
-      "offset": 63,
-      "length": 10,
-      "value": "\"language\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/VerificationMethod.swift",
@@ -2214,121 +2214,170 @@
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5650,
+      "offset": 5938,
       "length": 9,
       "value": "\"#5765FC\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5675,
+      "offset": 5963,
       "length": 6,
       "value": "\"#fff\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5718,
+      "offset": 6006,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5743,
+      "offset": 6031,
       "length": 6,
       "value": "\"#fff\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5788,
+      "offset": 6076,
       "length": 11,
       "value": "\"#FF1C1B1F\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5874,
+      "offset": 6162,
       "length": 9,
       "value": "\"#EEEEF0\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5899,
+      "offset": 6187,
       "length": 9,
       "value": "\"#FFFBFE\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 5996,
+      "offset": 6284,
       "length": 9,
       "value": "\"#5765FC\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6021,
+      "offset": 6309,
       "length": 6,
       "value": "\"#fff\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6064,
+      "offset": 6352,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6089,
+      "offset": 6377,
       "length": 6,
       "value": "\"#fff\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6134,
+      "offset": 6422,
       "length": 9,
       "value": "\"#FFFBFE\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6218,
+      "offset": 6506,
       "length": 9,
       "value": "\"#1C1C1E\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6243,
+      "offset": 6531,
       "length": 9,
       "value": "\"#121212\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6313,
+      "offset": 6601,
       "length": 9,
       "value": "\"#FC73E9\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6589,
+      "offset": 6877,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
       "kind": "StringLiteral",
-      "offset": 6719,
+      "offset": 7119,
       "length": 29,
       "value": "\"inverse_otp_preffix_default\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 7180,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 7300,
+      "length": 29,
+      "value": "\"inverse_otp_preffix_default\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 7361,
+      "length": 4,
+      "value": "\"es\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 7551,
+      "length": 29,
+      "value": "\"inverse_otp_preffix_default\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 7612,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 7732,
+      "length": 29,
+      "value": "\"inverse_otp_preffix_default\""
+    },
+    {
+      "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/SessionStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 7793,
+      "length": 4,
+      "value": "\"es\""
     },
     {
       "filePath": "\/Users\/cg\/Workspace\/Veriph.one\/iOS\/veriph-one-sdk-source-ios\/VeriphOne\/Model\/AttemptCancellationReason.swift",
